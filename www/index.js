@@ -15,8 +15,7 @@
 // DOES NOT WARRANT THAT THE OPERATION OF THE PROGRAM WILL BE
 // UNINTERRUPTED OR ERROR FREE.
 /////////////////////////////////////////////////////////////////////////////////
-var defaultUrn = 'dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6bW9kZWwyMDE2LTA3LTE0LTA0LTU0LTIxLTJrY3g2b3RwdjQ5eGRmb2c1OWRmZW5memZhcTcvR2F0ZUhvdXNlLm53ZA==';
-
+var defaultUrn = 'dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6bW9kZWwyMDE2LTA4LTE5LTIxLTMyLTA1LWJpamF1a3lyaml3dHE0enpidzl1dmZscnZmbTcvRjYxMDBfMzIuRkJY';
 
 $(document).ready(function () {
     var tokenurl = 'http://' + window.location.host + '/api/token';
@@ -27,7 +26,7 @@ $(document).ready(function () {
 
     // Instantiate viewer factory
     var viewerFactory = new Autodesk.ADN.Toolkit.Viewer.AdnViewerFactory(
-        tokenurl,
+        'BIJAuKYRjIWtq4zzBW9UVfLrvfm7',
         config);
 
     // Allows different urn to be passed as url parameter
@@ -57,7 +56,7 @@ $(document).ready(function () {
 });
 
 function loadExtensions(viewer) {
-    viewer.loadExtension('HeatMapFloorFlat');
+    viewer.loadExtension('VideoScreen');
 }
 
 function onError(error) {
