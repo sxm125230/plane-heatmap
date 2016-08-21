@@ -15,7 +15,7 @@
 // DOES NOT WARRANT THAT THE OPERATION OF THE PROGRAM WILL BE
 // UNINTERRUPTED OR ERROR FREE.
 /////////////////////////////////////////////////////////////////////////////////
-var defaultUrn = 'dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6bW9kZWwyMDE2LTA4LTE5LTIxLTMyLTA1LWJpamF1a3lyaml3dHE0enpidzl1dmZscnZmbTcvRjYxMDBfMzIuRkJY';
+var defaultUrn = 'dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6bW9kZWwyMDE2LTA4LTIwLTIyLTI3LTEyLTBjZTRuYXFmeGl6Y2lpeXNwdjF1dm1hdXVmZGQvRjYxMDBfMzIuRkJY';
 
 $(document).ready(function () {
     var tokenurl = 'http://' + window.location.host + '/api/token';
@@ -26,7 +26,7 @@ $(document).ready(function () {
 
     // Instantiate viewer factory
     var viewerFactory = new Autodesk.ADN.Toolkit.Viewer.AdnViewerFactory(
-        'BIJAuKYRjIWtq4zzBW9UVfLrvfm7',
+        '0Ce4naqfxIZCiIySPV1uVmAUuFDD',
         config);
 
     // Allows different urn to be passed as url parameter
